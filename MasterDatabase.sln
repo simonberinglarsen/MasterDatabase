@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{791237A4-92B1-4518-B8E3-B6A914967B99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AEE93068-0DF6-4114-8DAE-463384EF47D7}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MasterDatabase", "src\MasterDatabase\MasterDatabase.xproj", "{9B06EDEF-F40F-4BA3-8414-4ADF60AC975B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B06EDEF-F40F-4BA3-8414-4ADF60AC975B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B06EDEF-F40F-4BA3-8414-4ADF60AC975B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B06EDEF-F40F-4BA3-8414-4ADF60AC975B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B06EDEF-F40F-4BA3-8414-4ADF60AC975B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B06EDEF-F40F-4BA3-8414-4ADF60AC975B} = {791237A4-92B1-4518-B8E3-B6A914967B99}
+	EndGlobalSection
+EndGlobal
